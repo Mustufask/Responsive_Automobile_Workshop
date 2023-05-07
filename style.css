@@ -1,0 +1,202 @@
+body {
+   background-image: linear-gradient(yellow, rgb(255, 128, 0), rgb(255, 191, 0));
+   background-repeat: no-repeat;
+}
+
+.container {
+   width: 1024px;
+   min-height: 300px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-bottom: 2px solid black;
+}
+
+nav ul li {
+   text-decoration: none;
+}
+
+main {
+   min-height: 200px;
+   display: flex;
+   align-items: center;
+}
+
+section {
+   padding-top: 50px;
+}
+
+img {
+   object-fit: cover;
+   padding-left: 80px;
+}
+
+.cards {
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   margin-top: 40px;
+}
+
+.card1 {
+   background-image: url(card1.png);
+   background-size: cover;
+   background-position: bottom;
+   min-height: 300px;
+   width: 30%;
+}
+
+.card2 {
+   background-image: url(card2.png);
+   background-size: cover;
+   min-height: 300px;
+   width: 30%;
+
+}
+
+.card3 {
+   background-image: url(card3.png);
+   background-size: cover;
+   min-height: 300px;
+   width: 30%;
+
+}
+
+.card1,
+.card2,
+.card3 {
+   padding: 30px;
+   box-sizing: border-box;
+}
+
+.box1 {
+   width: 50%;
+   flex: 2;
+   /* text-shadow: 0px 0px 20px black; */
+}
+
+.box2 {
+   width: 50%;
+   flex: 1;
+}
+
+.box1 h1 {
+   font-size: 80px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-bottom: 50px;
+}
+
+.box1 p {
+   font-size: 25px;
+   line-height: 40px;
+   margin-bottom: 30px;
+}
+
+.cards h2 {
+   color: white;
+}
+
+.cards p {
+   color: white;
+}
+
+svg {
+   fill: white;
+}
+
+a {
+   text-decoration: none;
+   color: red;
+}
+
+.mybutton {
+   background-color: white;
+   color: red;
+   text-decoration: none;
+   padding: 11px 25px;
+   border-radius: 12px;
+   box-shadow: 5px 5px 5px black;
+}
+
+nav .mybutton {
+   border: 1px solid white;
+   padding: 11px 30px;
+   background-color: rgba(240, 248, 255, 0);
+   display: inline-block;
+}
+
+.mybutton:hover {
+   background-color: black;
+   color: white;
+   transition: 1s;
+}
+
+.testimonials {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-bottom: 100px;
+}
+
+.tbox {
+   width: 47%;
+   padding: 40px;
+   border: 1px solid black;
+   box-sizing: border-box;
+   margin-top: 50px;
+}
+
+.dropdown {
+   display: none;
+   position: relative;
+}
+
+.mybutton:hover .dropdown {
+   z-index: 1;
+   padding-top: 25px;
+   margin-left: -80px;
+   text-align: center;
+   display: block;
+   position: absolute;
+}
+
+footer p {
+   border-top: 2px solid black;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.inputwrap {
+   margin-bottom: 30px;
+}
+
+input[type="text"], input[type="email"], textarea {
+   padding: 12px 20px;
+   width: 100%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   box-sizing: border-box;
+}
+
+input[type="radio"] {
+   margin-right: 20px;
+}
+
+.margin-right {
+   margin-right: 40px;
+}
+
+.new {
+   display: block;
+   margin-bottom: 10px;
+}
+
+form {
+   margin: 40px 0;
+}
